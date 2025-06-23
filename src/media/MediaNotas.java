@@ -1,15 +1,16 @@
 package media; 
 
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class MediaNotas {
     public static void main(String[] args) {
+
         Scanner leitor = new Scanner(System.in);
 
-        double nota1, nota2, nota3, nota4, media;
+        double nota1, nota2, nota3, nota4, media; 
 
         System.out.print("Digite a primeira nota: ");
-        nota1 = leitor.nextDouble();
+        nota1 = leitor.nextDouble(); 
 
         System.out.print("Digite a segunda nota: ");
         nota2 = leitor.nextDouble();
@@ -25,7 +26,5 @@ public class MediaNotas {
         System.out.println("A média das notas é: " + media);
 
         leitor.close();
-
     }
-
 }
